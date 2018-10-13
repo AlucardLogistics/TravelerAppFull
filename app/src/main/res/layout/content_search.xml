@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.search.SearchActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@drawable/oldpaper"
+    android:id="@+id/mainLayout"
+    tools:showIn="@layout/app_bar_search">
+
+    <AutoCompleteTextView
+        android:id="@+id/etFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From: "
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textAutoComplete"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/etFrom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="130dp"-->
+        <!--android:hint="From:"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:inputType="textPersonName" />-->
+
+
+    <AutoCompleteTextView
+        android:id="@+id/etDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etFrom"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="To:"
+        android:inputType="textPersonName" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/etDestination"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/etFrom"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:hint="To:"-->
+        <!--android:inputType="textPersonName" />-->
+
+    <Button
+        android:id="@+id/btSwap"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:background="@drawable/up_down"
+        android:elevation="5dp"
+        android:text=""
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/etFrom"
+        android:layout_marginTop="-10dp"
+        android:layout_alignRight="@id/etFrom"/>
+
+    <Button
+        android:id="@+id/btCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="When"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/etDestination"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btSearch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="39dp"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:text="Search"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:onClick="clickHandler"
+        app:cardCornerRadius="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btCalendar"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leather">
+
+            <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/tvSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/localWeatherCardView"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvWeatherLocalCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local City"
+                android:textSize="12sp"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/ivWeatherLocalIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/tvWeatherLocalCity"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/sunny_icon"/>
+
+            <TextView
+                android:id="@+id/tvWeatherLocalTemperature"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="55°"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tvWeatherLocalCity"
+                android:textColor="@android:color/black"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tvWeatherLocalDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="desc:"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/ivWeatherLocalIcon"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/tvWeatherLocalHumidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="humidity:"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/tvWeatherLocalDescription"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/arrivalWeatherCardView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvWeatherArrivalCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrival City"
+                android:textSize="12sp"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/ivWeatherArrivalIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tvWeatherArrivalCity"
+                android:src="@drawable/sunny_icon"/>
+
+            <TextView
+                android:id="@+id/tvWeatherArrivalTemperature"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="55°"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tvWeatherArrivalCity"
+                android:textColor="@android:color/black"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tvWeatherArrivalDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="desc:"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/ivWeatherArrivalIcon"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/tvWeatherArrivalHumidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="humidity:"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/tvWeatherArrivalDescription"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <FrameLayout
+        android:id="@+id/calendarFragment"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:elevation="15dp">
+
+    </FrameLayout>
+
+</RelativeLayout>

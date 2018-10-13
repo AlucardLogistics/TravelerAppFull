@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnyChart:AnyChart-Android-1.0.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AnyChart-Android-1.0.3.aar/2079d12a289c594cc9187d97eaee0777/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AnyChart-Android-1.0.3.aar/2079d12a289c594cc9187d97eaee0777/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnyChart/AnyChart-Android/1.0.3/bdfe5e733d35aaddc568a7dc73f08926613260d/AnyChart-Android-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

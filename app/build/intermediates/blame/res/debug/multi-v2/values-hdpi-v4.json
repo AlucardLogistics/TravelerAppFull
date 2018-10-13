@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Programming\\Android\\Espresso\\TravelerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sadic\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\31328f2ca02d947fdb2e2c7de1231b9e\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

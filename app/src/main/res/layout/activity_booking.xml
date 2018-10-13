@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oldpaper">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvContactInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Contact Information: "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/contactCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContactInfo"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@android:color/transparent"
+            android:elevation="10dp"
+            app:cardCornerRadius="5dp">
+
+            <!--android:backgroundTint="#d4d1cc"-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvBookingEmailId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Email ID:"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBookingName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBookingEmailId"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="tvBookingName"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBookingMobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBookingName"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Booking Mobile"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBookingSeats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tvBookingEmailId"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="20dp"
+                    android:text="Seats Booked"
+                    android:textColor="@android:color/black" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvGuests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contactCard"
+            android:layout_marginTop="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/tvTripInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rvGuests"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Trip Information: "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/tripCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTripInfo"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@android:color/transparent"
+            android:elevation="10dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvBusBookRoute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="tvRoute"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBusBookType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBusBookRoute"
+                    android:layout_marginLeft="20dp"
+                    android:text="tvBusType"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBusBookFare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tvBusBookType"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="20dp"
+                    android:text="tvFare"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBusBookDeparture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBusBookType"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Depart Time"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvBusTravelTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tvBusBookDeparture"
+                    android:layout_marginLeft="80dp"
+                    android:layout_toRightOf="@id/tvBusBookDeparture"
+                    android:text="Travel time"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvBusArrival"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tvBusBookDeparture"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="20dp"
+                    android:text="Arrival time"
+                    android:textColor="@android:color/black" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvCoupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tripCard"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Cutepon: "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCoupon"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@android:color/transparent"
+            android:elevation="10dp"
+            android:layout_marginBottom="300dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvCouponQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Got a coupon? "
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etCoupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvCouponQuestion"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="100dp"
+                    android:hint="Enter Coupon Number" />
+
+                <Button
+                    android:id="@+id/btApplyCoupon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/etCoupon"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:text="Apply"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCouponInvalid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etCoupon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#f00"
+                    android:padding="5dp"
+                    android:text="Sorry, the coupon you typed is invalid!"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tvCoupon"
+            android:layout_margin="10dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@android:color/transparent"
+            android:elevation="10dp"
+            android:layout_marginBottom="300dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btConfirmBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent"
+        android:text="Confirm Booking"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

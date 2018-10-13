@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivSeat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_chair"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvSeatLabel"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="S1"
+        android:textSize="11sp"
+        android:elevation="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="17dp"/>
+
+    <ImageView
+        android:id="@+id/ivSeatSelected"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_chair_selected"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ivSeatReserved"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_chair_booked"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

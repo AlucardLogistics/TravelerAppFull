@@ -1,0 +1,864 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:2:1-114:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fa9bcb80ed070cf15d85d71aa051293e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.AnyChart:AnyChart-Android:1.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\AnyChart-Android-1.0.3.aar\e483353592e09dca35046bb4aac4b947\AndroidManifest.xml:2:1-17:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\library-1.4.2.aar\3dfc5f3fe00720df33a479266eef39ee\AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\31328f2ca02d947fdb2e2c7de1231b9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e59d0a517ee9851104c86cd440d94e2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7dcc566f2b864272043eae590562199\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\cb88b9624d85451ad44ce8dcec87a814\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1376fb3e61e4db7e1cef6ada38f6c353\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.phajduk:RxValidator:94fdca4ec6504985d6187080f1d9e9580703c082] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\RxValidator-94fdca4ec6504985d6187080f1d9e9580703c082.aar\6ae080f00e7d41fc2c8fee713fa1aa3a\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\1e680d1269f15b548784138b1fb9f8c4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:17:1-39:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:2:1-28:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:17:1-56:12
+MERGED from [com.android.support:customtabs:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\92258748caeac66350dd225b11d68be6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\ba175b61478e1af3af69dfe0d627f9c9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\adf0c828f448bb3672e4a84a8f5770ec\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\a89dd6a9bd26b5ae3e389537bb7e1548\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\9fa32d225e7c79d3a05fb1585c6e8803\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\36e3f717f5739680658b7533c1a846ae\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\04ee6533398b095e3079479d0e18e72b\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a5c66947ba0b718c5e1f67e338e54cf0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\84d23b7465207e3452be16bfce8904f8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\ad6255e28dac3a49d0f53525eb20b6b4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\32b48109b56f5dc215a7af0594350e32\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\30d7c85ca3be67c702cdc4c3d846d983\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\72d84015c1a9ea7cf85d289a27e061a2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e63fc275c75c780c5c6f90c92428873f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\3200090f573fa7fda68b5356a5c97547\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\4bae0d528b24c7adfbab5de54c569bf0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\90269462ee319a36e2f576ba4cd43680\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\75d97fa4e0c378d6a8cd8529f18dc792\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\50b93f253581572cd00c2b877339a653\AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c27c4b1c28cb12109d49b730a87d2214\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\564678ec7cfad840f4c0b50e96da6427\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2f07d96c68fc545a2aa0ec4c5831cd52\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\11aaf6a4a5aa63c55f2f19b2c78936a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6babe0c1494d5744bd826e124d25b65a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\793a4a802f4575219efb7e54d1340bd6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6b78835b3354d08cc132e6ba7197fd2c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\aefa0be03b8167d930cb842e316d52b5\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\572f4fda0a4ab4f27f7032d13e83bf5a\AndroidManifest.xml:15:1-21:12
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\90bcaa1601bc884e9d95aa5d892c8ccb\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:24:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:11:5-52:27
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:15:5-112:19
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:15:5-112:19
+MERGED from [com.github.AnyChart:AnyChart-Android:1.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\AnyChart-Android-1.0.3.aar\e483353592e09dca35046bb4aac4b947\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.AnyChart:AnyChart-Android:1.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\AnyChart-Android-1.0.3.aar\e483353592e09dca35046bb4aac4b947\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e59d0a517ee9851104c86cd440d94e2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e59d0a517ee9851104c86cd440d94e2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:30:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.phajduk:RxValidator:94fdca4ec6504985d6187080f1d9e9580703c082] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\RxValidator-94fdca4ec6504985d6187080f1d9e9580703c082.aar\6ae080f00e7d41fc2c8fee713fa1aa3a\AndroidManifest.xml:12:5-13:19
+MERGED from [com.github.phajduk:RxValidator:94fdca4ec6504985d6187080f1d9e9580703c082] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\RxValidator-94fdca4ec6504985d6187080f1d9e9580703c082.aar\6ae080f00e7d41fc2c8fee713fa1aa3a\AndroidManifest.xml:12:5-13:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\1e680d1269f15b548784138b1fb9f8c4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\1e680d1269f15b548784138b1fb9f8c4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:22:5-37:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:12:5-26:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:46:5-54:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\ba175b61478e1af3af69dfe0d627f9c9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\ba175b61478e1af3af69dfe0d627f9c9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\adf0c828f448bb3672e4a84a8f5770ec\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\adf0c828f448bb3672e4a84a8f5770ec\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\9fa32d225e7c79d3a05fb1585c6e8803\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\9fa32d225e7c79d3a05fb1585c6e8803\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a5c66947ba0b718c5e1f67e338e54cf0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a5c66947ba0b718c5e1f67e338e54cf0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\84d23b7465207e3452be16bfce8904f8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\84d23b7465207e3452be16bfce8904f8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\ad6255e28dac3a49d0f53525eb20b6b4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\ad6255e28dac3a49d0f53525eb20b6b4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\32b48109b56f5dc215a7af0594350e32\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\32b48109b56f5dc215a7af0594350e32\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:22:5-28:19
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:19:5-24:19
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:19:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\90bcaa1601bc884e9d95aa5d892c8ccb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\90bcaa1601bc884e9d95aa5d892c8ccb\AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.example.sadic.travelerapp.ui.search.SearchActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:18:9-20:57
+	android:label
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:19:13-53
+activity#com.example.sadic.travelerapp.ui.seatmap.SeatMapActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:21:9-64
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:21:19-61
+activity#com.example.sadic.travelerapp.ui.tripresults.TripResultsActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:22:9-72
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:22:19-69
+activity#com.example.sadic.travelerapp.ui.booking.BookingActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:23:9-25:55
+	android:windowSoftInputMode
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:25:13-52
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:24:13-55
+activity#com.example.sadic.travelerapp.ui.payment.PaymentActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:26:9-64
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:26:19-61
+activity#com.example.sadic.travelerapp.ui.splash.SplashActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:27:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.example.sadic.travelerapp.ui.splash.TechnologyActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:34:9-66
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:34:19-63
+activity#com.example.sadic.travelerapp.ui.splash.GraphActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:35:9-61
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:35:19-58
+activity#com.example.sadic.travelerapp.ui.payment.RecepitActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:36:9-64
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:36:19-61
+activity#com.example.sadic.travelerapp.ui.login.LoginActivity
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:37:9-39:20
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:37:19-57
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:48:9-50:55
+	android:value
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:50:13-52
+	android:name
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml:49:13-58
+uses-sdk
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fa9bcb80ed070cf15d85d71aa051293e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\fa9bcb80ed070cf15d85d71aa051293e\AndroidManifest.xml:20:5-44
+MERGED from [com.github.AnyChart:AnyChart-Android:1.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\AnyChart-Android-1.0.3.aar\e483353592e09dca35046bb4aac4b947\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AnyChart:AnyChart-Android:1.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\AnyChart-Android-1.0.3.aar\e483353592e09dca35046bb4aac4b947\AndroidManifest.xml:7:5-9:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\library-1.4.2.aar\3dfc5f3fe00720df33a479266eef39ee\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\library-1.4.2.aar\3dfc5f3fe00720df33a479266eef39ee\AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\31328f2ca02d947fdb2e2c7de1231b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\31328f2ca02d947fdb2e2c7de1231b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e59d0a517ee9851104c86cd440d94e2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2e59d0a517ee9851104c86cd440d94e2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7dcc566f2b864272043eae590562199\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7dcc566f2b864272043eae590562199\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\cb88b9624d85451ad44ce8dcec87a814\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\cb88b9624d85451ad44ce8dcec87a814\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1376fb3e61e4db7e1cef6ada38f6c353\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\1376fb3e61e4db7e1cef6ada38f6c353\AndroidManifest.xml:5:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:5:5-44
+MERGED from [com.github.phajduk:RxValidator:94fdca4ec6504985d6187080f1d9e9580703c082] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\RxValidator-94fdca4ec6504985d6187080f1d9e9580703c082.aar\6ae080f00e7d41fc2c8fee713fa1aa3a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.phajduk:RxValidator:94fdca4ec6504985d6187080f1d9e9580703c082] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\RxValidator-94fdca4ec6504985d6187080f1d9e9580703c082.aar\6ae080f00e7d41fc2c8fee713fa1aa3a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\1e680d1269f15b548784138b1fb9f8c4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\1e680d1269f15b548784138b1fb9f8c4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:20:5-44
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\92258748caeac66350dd225b11d68be6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\92258748caeac66350dd225b11d68be6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\ba175b61478e1af3af69dfe0d627f9c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\ba175b61478e1af3af69dfe0d627f9c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\adf0c828f448bb3672e4a84a8f5770ec\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\adf0c828f448bb3672e4a84a8f5770ec\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\a89dd6a9bd26b5ae3e389537bb7e1548\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\a89dd6a9bd26b5ae3e389537bb7e1548\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\9fa32d225e7c79d3a05fb1585c6e8803\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\9fa32d225e7c79d3a05fb1585c6e8803\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\36e3f717f5739680658b7533c1a846ae\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\36e3f717f5739680658b7533c1a846ae\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\04ee6533398b095e3079479d0e18e72b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\04ee6533398b095e3079479d0e18e72b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a5c66947ba0b718c5e1f67e338e54cf0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a5c66947ba0b718c5e1f67e338e54cf0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\84d23b7465207e3452be16bfce8904f8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\84d23b7465207e3452be16bfce8904f8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\ad6255e28dac3a49d0f53525eb20b6b4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\ad6255e28dac3a49d0f53525eb20b6b4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\32b48109b56f5dc215a7af0594350e32\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\32b48109b56f5dc215a7af0594350e32\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\30d7c85ca3be67c702cdc4c3d846d983\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\30d7c85ca3be67c702cdc4c3d846d983\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\72d84015c1a9ea7cf85d289a27e061a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\72d84015c1a9ea7cf85d289a27e061a2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e63fc275c75c780c5c6f90c92428873f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e63fc275c75c780c5c6f90c92428873f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\3200090f573fa7fda68b5356a5c97547\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\3200090f573fa7fda68b5356a5c97547\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\4bae0d528b24c7adfbab5de54c569bf0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\4bae0d528b24c7adfbab5de54c569bf0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\90269462ee319a36e2f576ba4cd43680\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\90269462ee319a36e2f576ba4cd43680\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\75d97fa4e0c378d6a8cd8529f18dc792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\75d97fa4e0c378d6a8cd8529f18dc792\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\50b93f253581572cd00c2b877339a653\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\50b93f253581572cd00c2b877339a653\AndroidManifest.xml:6:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c27c4b1c28cb12109d49b730a87d2214\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c27c4b1c28cb12109d49b730a87d2214\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\564678ec7cfad840f4c0b50e96da6427\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\564678ec7cfad840f4c0b50e96da6427\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2f07d96c68fc545a2aa0ec4c5831cd52\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2f07d96c68fc545a2aa0ec4c5831cd52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\11aaf6a4a5aa63c55f2f19b2c78936a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\11aaf6a4a5aa63c55f2f19b2c78936a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6babe0c1494d5744bd826e124d25b65a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6babe0c1494d5744bd826e124d25b65a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\793a4a802f4575219efb7e54d1340bd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\793a4a802f4575219efb7e54d1340bd6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6b78835b3354d08cc132e6ba7197fd2c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6b78835b3354d08cc132e6ba7197fd2c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\aefa0be03b8167d930cb842e316d52b5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\aefa0be03b8167d930cb842e316d52b5\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\572f4fda0a4ab4f27f7032d13e83bf5a\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\572f4fda0a4ab4f27f7032d13e83bf5a\AndroidManifest.xml:19:5-43
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:5:5-7:41
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\90bcaa1601bc884e9d95aa5d892c8ccb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\90bcaa1601bc884e9d95aa5d892c8ccb\AndroidManifest.xml:5:5-44
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android\Espresso\TravelerApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:23:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:12:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\fb282e3181cf9886d2f7fd3ff926ef2f\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:28:9-32:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:31:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:29:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:33:9-37:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:36:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:34:13-86
+activity#com.firebase.ui.auth.ui.provider.GitHubLoginActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:38:9-58:20
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:41:13-29
+	android:launchMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:42:13-43
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:40:13-96
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:43:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:39:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/firebase_web_host+data:path:/__/auth/handler+data:scheme:https
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:44:13-57:29
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:46:17-47
+	android:autoVerify
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:45:17-42
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:47:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:49:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:49:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:50:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:50:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:52:17-56:64
+	android:path
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:54:21-52
+	android:host
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:53:21-61
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:55:21-43
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:56:21-61
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:59:9-63:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:62:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:63:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:60:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:64:9-68:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:67:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:68:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:65:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:69:9-73:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:72:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:73:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:70:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:74:9-78:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:77:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:78:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:75:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:79:9-83:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:82:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:83:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:80:13-83
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:84:9-87:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:87:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:85:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:88:9-92:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:91:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:92:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:90:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:89:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:93:9-105:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:95:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:96:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:94:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:97:13-104:29
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:107:9-111:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:109:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:110:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:111:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.1.0.aar\aea2d907fc198d0ef653e4b6bd7194c0\AndroidManifest.xml:108:13-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\dcd9a04d7549ea7ae6f5f97b43caa15e\AndroidManifest.xml:28:9-32
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\53f59dbb1a28919beb62723f61049c46\AndroidManifest.xml:9:13-64
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.4.aar\5d08bc31f791c4c34925df11b611eb51\AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\d7b3705cacca431f52c7ef5f237b42fd\AndroidManifest.xml:34:13-89
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.16.0.aar\ec6eb76553aa1dbb9d156c3ee475fef7\AndroidManifest.xml:24:13-73
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:22:5-65
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:9:5-65
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:25:5-27:36
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:12:5-14:36
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:33:5-35:36
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:15:5-17:36
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.6.0.aar\1dbf68c046ac36f906ecc8bd8311f426\AndroidManifest.xml:48:13-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\690e56a2e82e91050ba745558062689a\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\521ffc267c25a65d6a83857226cc8168\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\6155a3aa835abe349bb7b393c544af67\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\4466b876a8422b740f357d5bb3788054\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\5a061eca5ca3e7078d730d6ef5dae50d\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\ab6ba1aef32bcdf353abe43b7807b8c9\AndroidManifest.xml:11:13-77
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\f63d4b60fc5dcd30769eb91ecb537d95\AndroidManifest.xml:24:13-83
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:10:22-63
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:20:9-22:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:21:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:23:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.5.1] C:\Users\sadic\.gradle\caches\transforms-1\files-1.1\android-sdk-5.5.1.aar\4ea0aed5019fba7cab7aaac616997993\AndroidManifest.xml:23:19-67

@@ -1,0 +1,31 @@
+package com.example.sadic.travelerapp.ui.payment;
+
+import android.util.Log;
+import android.widget.EditText;
+
+import com.github.phajduk.rxvalidator.RxValidationResult;
+import com.github.phajduk.rxvalidator.Validator;
+
+import java.util.concurrent.TimeUnit;
+
+import rx.Observable;
+
+/*
+Example external validator. It could for example make a call to external API to validate email
+ */
+public class CustomEmailDomainValidator implements Validator<EditText> {
+  private static final String TAG = "RxValidator";
+
+  @Override
+  public Observable<RxValidationResult<EditText>> validate(String text, EditText item) {
+    Log.i(TAG, "Checking domain");
+    RxValidationResult<EditText> result;
+    if (text.endsWith("gmail.com") || text.endsWith("live.com") || text.endsWith("yahoo.com")) {
+      result = RxValidationResult.createSuccess(item);
+    } else {
+      result = RxValidationResult.createImproper(item, "Improper domain");
+    }
+
+    return Observable.just(result).delay(2, TimeUnit.SECONDS);
+  }
+}

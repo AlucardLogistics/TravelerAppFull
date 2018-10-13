@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/contactCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginTop="40dp"
+        android:elevation="10dp"
+        android:layout_below="@id/tvContactInfo"
+        app:cardCornerRadius="5dp">
+
+        <!--android:backgroundTint="#d4d1cc"-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvGuestInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Guest Info: "
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/etGuestEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/tvGuestInfo"
+                android:layout_marginRight="20dp"
+                android:hint="Email:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/etGuestName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/etGuestEmail"
+                android:hint="Name:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/etGuestMobile"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/etGuestName"
+                android:layout_marginRight="20dp"
+                android:hint="Mobile:"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"/>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
